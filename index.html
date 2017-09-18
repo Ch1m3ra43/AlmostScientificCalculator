@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Web App 2</title>
+    <!-- CDN version -->
+
+    <script src="calculator2.js"></script>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="themes/CalculatorTheme1.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="calculator2.css" />
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- this can be placed here because it will not slow the loading of the webpage due to the window.onload function.-- >
+
+    <!-- end CDN version -->
+
+</head>
+
+<body>
+    <div id="main">
+        <div data-role="header">
+            <h1>Calculator</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <table style="width:100%">
+                <tr>
+                    <td colspan="4">
+                        <div id="txtDisplay">1234567890</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width=25%"><button id="btnExponent" data-theme="a">x<sup>y</sup></button></td>
+                    <td style="width=25%"><button id="btnClear" data-theme="a">C</button></td>
+                    <td style="width=25%"><button id="btnChangeSign" data-theme="a">+/-</button></td>
+                    <td style="width=25%"><button id="btnPercent" data-theme="a">%</button></td>
+
+                </tr>
+                <tr>
+
+                    <td style="width=25%"><button id="btnSquareRoot" data-theme="a">&#8730</button></td>
+                    <td style="width=25%"><button id="btnSin" data-theme="a">sin</button></td>
+                    <td style="width=25%"><button id="btnCos" data-theme="a">cos</button></td>
+                    <td style="width=25%"><button id="btnDivide" data-theme="c">&#xF7;</button></td>
+                </tr>
+                <tr>
+                    <td style="width=25%"><button id="btn7" data-theme="b">7</button></td>
+                    <td style="width=25%"><button id="btn8" data-theme="b">8</button></td>
+                    <td style="width=25%"><button id="btn9" data-theme="b">9</button></td>
+                    <td style="width=25%"><button id="btnMultiply" data-theme="c">*</button></td>
+                </tr>
+                <tr>
+                    <td style="width=25%"><button id="btn4" data-theme="b">4</button></td>
+                    <td style="width=25%"><button id="btn5" data-theme="b">5</button></td>
+                    <td style="width=25%"><button id="btn6" data-theme="b">6</button></td>
+                    <td style="width=25%"><button id="btnSubtract" data-theme="c">-</button></td>
+                </tr>
+                <tr>
+                    <td style="width=25%"><button id="btn1" data-theme="b">1</button></td>
+                    <td style="width=25%"><button id="btn2" data-theme="b">2</button></td>
+                    <td style="width=25%"><button id="btn3" data-theme="b">3</button></td>
+                    <td style="width=25%"><button id="btnAdd" data-theme="c">+</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="btn0" data-theme="b">0</button></td>
+                    <td style="width=25%"><button id="btnDecimal" data-theme="b">.</button></td>
+                    <td style="width=25%"><button id="btnEqual" data-theme="c">=</button></td>
+                </tr>
+
+            </table>
+        </div>
+        <div data-role="footer">
+            <h3>Version 1.00.10 &copy;2017 Candice Rogers-Siers</h3>
+        </div>
+        <!--end of footer div-->
+    </div>
+    <!--end of main div-->
+</body>
+
+</html>

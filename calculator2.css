@@ -1,0 +1,16 @@
+@charset "uft-8";
+
+/* CSS file to format calculator */
+
+#txtDisplay {
+    font-size: 50px;
+    text-align=right;
+}
+
+.black {
+    color: black
+}
+
+.red {
+    color: red
+}
